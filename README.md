@@ -48,7 +48,7 @@ The program requires:
 Example build command:
 
 ```
-gcc src/main.c -lglfw -lGL -ldl -o opengl
+make window
 ```
 
 ## Notes
