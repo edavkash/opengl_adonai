@@ -8,6 +8,5 @@ window:
 
 triangle:
 	$(CC) $(CFLAGS) -o $@ file.o glad.o triangle.o
-
 clean:
 	rm -f *.o window triangle

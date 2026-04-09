@@ -54,3 +54,20 @@ make window
 ## Notes
 
 This project is mainly for learning and experimentation. The code may change frequently as new concepts are explored.
+
+## Sources
+    - wiki:https://wikis.khronos.org/opengl/Main_Page
+	- pdf: https://learnopengl.com/book/book_pdf.pdf
+	- glfw: https://www.glfw.org/
+	- github: https://github.com/glfw/glfw \
+       https://github.com/JoeyDeVries/LearnOpenGL/tree/master \
+	   https://github.com/capnramses/antons_opengl_tutorials_book/blob/master/41_shader_hot_reload/main.c
+	- glad: https://glad.dav1d.de/
+	- cheatsheet: https://www.glfw.org/GLFWReference27.pdf
+	- wikipedia: https://en.wikipedia.org/wiki/OpenGL_Shading_Language
+	- html: https://nicolbolas.github.io/oldtut/index.html
+	- manual:https://gcc.gnu.org/onlinedocs/cpp/Concatenation.html\
+     	https://gcc.gnu.org/onlinedocs/cpp/Stringizing.html
+	- glsl: https://wikis.khronos.org/opengl/Layout_Qualifier_(GLSL)
+    - vbo: https://en.wikipedia.org/wiki/Vertex_buffer_object
+	- GLAD: https://glad.dav1d.de/
