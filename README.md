@@ -64,10 +64,12 @@ This project is mainly for learning and experimentation. The code may change fre
 	   https://github.com/capnramses/antons_opengl_tutorials_book/blob/master/41_shader_hot_reload/main.c
 	- glad: https://glad.dav1d.de/
 	- cheatsheet: https://www.glfw.org/GLFWReference27.pdf
-	- wikipedia: https://en.wikipedia.org/wiki/OpenGL_Shading_Language
+	- wikipedia: https://en.wikipedia.org/wiki/OpenGL_Shading_Language\
+		https://en.wikipedia.org/wiki/Cartesian_coordinate_system
 	- html: https://nicolbolas.github.io/oldtut/index.html
 	- manual:https://gcc.gnu.org/onlinedocs/cpp/Concatenation.html\
      	https://gcc.gnu.org/onlinedocs/cpp/Stringizing.html
 	- glsl: https://wikis.khronos.org/opengl/Layout_Qualifier_(GLSL)
     - vbo: https://en.wikipedia.org/wiki/Vertex_buffer_object
 	- GLAD: https://glad.dav1d.de/
+	- Blog: https://moderncprogramming.com/loading-a-glsl-shader-from-file-in-opengl-using-pure-c/
