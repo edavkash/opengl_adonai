@@ -48,7 +48,9 @@ The program requires:
 * GLAD (`link below under sources`)
 * A C compiler (gcc/clang)
 
-Example build command:
+## Example build command:
+
+Quick demo 
 
 ```
 make -k
@@ -59,6 +61,12 @@ or
 make -k 
 make triangle
 ```
+
+Main program 
+
+``
+make build 
+``
 
 ## Notes
 
