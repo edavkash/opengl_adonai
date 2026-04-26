@@ -1,11 +1,11 @@
 #include "shader.h"
 #include "common.h"
 
-Shader CompileShader(const char *vpath, const char *fpath)
+Shader *CompileShader(const char *vpath, const char *fpath)
 {
   // dummy object
 
-  Shader shader = {0};
+  Shader *shader = malloc(sizeof(Shader));
   const char *VertShaderSource = load_shader_content(vpath);
   const char *FragShaderSource = load_shader_content(fpath);
 
@@ -43,14 +43,14 @@ Shader CompileShader(const char *vpath, const char *fpath)
 
 
   /*Combining both rendering pipeline*/
-  shader.ID = glCreateProgram();
-  glAttachShader(shader.ID,VertShader);
-  glAttachShader(shader.ID, FragShader);
-  glLinkProgram(shader.ID);
-  glGetProgramiv(shader.ID, GL_LINK_STATUS, &success);
+  shader->ID = glCreateProgram();
+  glAttachShader(shader->ID,VertShader);
+  glAttachShader(shader->ID, FragShader);
+  glLinkProgram(shader->ID);
+  glGetProgramiv(shader->ID, GL_LINK_STATUS, &success);
   if (!success)
     {
-      glGetProgramInfoLog(shader.ID, SIZE, NULL, infoLog);
+      glGetProgramInfoLog(shader->ID, SIZE, NULL, infoLog);
       error("Program failed");
     }
   else

@@ -34,6 +34,9 @@ glad.c
 common.h
 ```
 
+## NOTE
+As the project grows the program will include other program 
+
 More modules may be added as the project grows.
 
 ## Building
@@ -42,13 +45,19 @@ The program requires:
 
 * OpenGL
 * GLFW
-* GLAD
+* GLAD (`link below under sources`)
 * A C compiler (gcc/clang)
 
 Example build command:
 
 ```
+make -k
 make window
+``
+or 
+``
+make -k 
+make triangle
 ```
 
 ## Notes

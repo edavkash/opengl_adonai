@@ -58,8 +58,7 @@ int main(int argc, char **argv)
       printf("[+] GLAD Loaded successful\n");
     }
 
-  CompileShader("vshader.vert", "fshader.frag");
-  Shader *s = malloc(sizeof(Shader));
+  Shader *s =   CompileShader("glsl/vshader.vert", "glsl/fshader.frag");
   Mesh m = mesh_init(vertices,sizeof(vertices));
 
   while (!glfwWindowShouldClose(window))
@@ -76,8 +75,8 @@ int main(int argc, char **argv)
       glfwPollEvents();
     }
 
-  glfwTerminate();
   free(s);
+  glfwTerminate();
   return 0;
 }
 
